@@ -64,3 +64,60 @@
 // } else {
 //     alert( "Я вас не знаю" );
 // }
+
+/*                            26.04.23
+
+ */
+
+// let user;
+// alert(user ?? "Аноним");
+// let user = "Иван";
+// alert(user ?? "Аноним");
+
+// let i = 0;
+// while (i < 3) { // выводит 0, затем 1, затем 2
+//     console.log( i );
+//     i++;
+// }
+
+// ['Мама', 'Мыла', 'Раму'];
+// for (let i = 0; i < 3; i++) { // выведет 0, затем 1, затем 2
+//     alert(i);
+// }
+// let sum = 0;
+// while (true) {
+//     let value = +prompt("Введите число", '');
+//     if (!value) break;
+//     sum += value;
+// }
+// alert( 'Сумма: ' + sum );
+
+// for (let i = 0; i < 10; i++) {
+//     if (i % 2 == 0) continue;
+//     alert(i);
+// }
+// for (let i = 0; i < 10; i++) {
+//     if (i % 2 == 0)
+//     alert(i)
+// }
+
+// let i = 0;
+// while (i < 3) {
+//     alert( `number ${i}!` );
+//     i++;
+// }
+
+// let num = 0;
+// do {
+//     num = prompt("Введите число, большее 100?", 0);
+// } while (num <= 100 && num);
+// while (true) {
+//     let value = +prompt('Введи число больше 100', '')
+//     if (value < 100) alert('Введите число больше 100!');
+//         else break;
+// }
+
+for (let n = 0; n <= 10; n++) {
+    if (n % 2 == 0) continue;
+    console.log(n)
+}
