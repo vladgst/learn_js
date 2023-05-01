@@ -65,9 +65,6 @@
 //     alert( "Я вас не знаю" );
 // }
 
-/*                            26.04.23
-
- */
 
 // let user;
 // alert(user ?? "Аноним");
@@ -117,7 +114,101 @@
 //         else break;
 // }
 
-for (let n = 0; n <= 10; n++) {
-    if (n % 2 == 0) continue;
-    console.log(n)
-}
+// for (let n = 0; n <= 10; n++) {
+//     if (n % 2 == 0) continue;
+//     console.log(n)
+// }
+
+// let a = 3 + 2;
+// switch (a) {
+//     case 3:
+//         alert( 'Маловато' );
+//         break;
+//     case 4:
+//         alert( 'В точку!' );
+//         break;
+//     case 5:
+//         alert( 'Перебор' );
+//         break;
+//     default:
+//         alert( "Нет таких значений" );
+// }
+
+// let arg = prompt("Введите число?");
+// switch (arg) {
+//     case '0':
+//     case '1':
+//         alert( 'Один или ноль' );
+//         break;
+//     case '2':
+//         alert( 'Два' );
+//         break;
+//     case 3:
+//         alert( 'Никогда не выполнится!' );
+//         break;
+//     default:
+//         alert( 'Неизвестное значение' );
+// }
+
+// let browser = prompt('Введите название браузера:')
+//     if (browser == 'Edge') {
+//         alert('Edge browser')
+//     }
+//     else if (browser == 'Chrome' || browser ==  'Firefox' || browser ==  'Safari' || browser ==  'Opera') {
+//         alert('Best browser')
+//     }
+//     else {
+//         alert('Any browser')
+//     }
+
+// const number = +prompt('Число между 0 и 3')
+// switch (number) {
+//     case 0:
+//         alert('Число 0')
+//         break;
+//     case 1:
+//         alert('Число 1')
+//         break;
+//     case 2:
+//     case 3:
+//         alert('2 или 3')
+// }
+
+// function checkAge(age) {
+//     return (age > 18) ? true : confirm('Родители разрешили?');
+// }
+//
+// function checkAge(age) {
+//     return (age > 18) || confirm('Родители разрешили?');
+// }
+
+// function showMin (a, b){
+//     if (a < b) {
+//         return a;
+//     }
+//     else {
+//         return b;
+//     }
+// }
+// console.log(showMin(3, 13))
+
+// function showPow (x, n) {
+//     return x ** n;
+// }
+// console.log(showPow(2,6))
+
+// function pow(x, n) {
+//     let result = x;
+//     for (let i = 1; i < n; i++) {
+//         result *= x;
+//     }
+//     return result;
+// }
+// let x = prompt("x?", '');
+// let n = prompt("n?", '');
+// if (n < 1) {
+//     alert(`Степень ${n} не поддерживается, используйте натуральное число`);
+// } else {
+//     alert( pow(x, n) );
+// }
+
